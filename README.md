@@ -1,47 +1,31 @@
-# MyToken
+# DAETA Token
 
-This repository contains the smart contract code for the MyToken ERC20 token, deployed on the Ethereum network at [0x641c0f8b889f8336a69f464ddae3733e3de3788a](https://etherscan.io/address/0x641c0f8b889f8336a69f464ddae3733e3de3788a#code). The contract is designed to follow the ERC20 standard, providing a secure and standardized method for token transfers, allowance management, and token interaction.
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Token Details](#token-details)
-- [Getting Started](#getting-started)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Smart Contract Interface](#smart-contract-interface)
-- [Development and Testing](#development-and-testing)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Overview
-
-The MyToken smart contract provides an ERC20-compliant token, allowing users to transfer tokens, approve allowances, and query balances. The contract adheres to the standardized ERC20 interface, ensuring compatibility with wallets, exchanges, and other applications that support ERC20 tokens.
+DAETA is an ERC20 token designed as a decentralized, AI-native data layer and distributed cloud storage solution. This repository contains the DAETA smart contract, featuring core ERC20 functionalities alongside Uniswap trading capabilities, tax management and automatic fund allocation to designated addresses for storage, LVRG and DAETA Boost.
 
 ## Token Details
 
-- **Token Name**: MyToken
-- **Token Symbol**: MYT
+- **Name**: DAETA
+- **Symbol**: DAETA
 - **Decimals**: 18
-- **Contract Address**: [0x641c0f8b889f8336a69f464ddae3733e3de3788a](https://etherscan.io/address/0x641c0f8b889f8336a69f464ddae3733e3de3788a)
-- **Total Supply**: (Specify the total supply as per the contract)
+- **Total Supply**: 100,000,000 DAETA
+- **Contract Address**: [0x641c0f8b889f8336a69f464ddae3733e3de3788a](https://etherscan.io/address/0x641c0f8b889f8336a69f464ddae3733e3de3788a#code)
 
-## Getting Started
+## Resources
 
-To interact with the MyToken contract, you can use a Web3-compatible wallet like MetaMask, or interact directly with the contract on Etherscan.
+- **Website**: [daeta.xyz](https://www.daeta.xyz/)
+- **Twitter**: [@DaetaStorage](https://x.com/DaetaStorage)
+- **Blog**: [daetastorage.medium.com](https://daetastorage.medium.com/)
+- **Telegram**: [DaetaStorage](https://t.me/DaetaStorage)
+- **Discord**: [discord.gg/DaetaStorage](https://discord.gg/DaetaStorage)
+- **GitHub**: [github.com/DaetaStorage](https://github.com/DaetaStorage)
+- **Documentation**: [docs.daeta.xyz](https://docs.daeta.xyz/)
+- **Whitepaper**: [daeta.xyz/DaetaWPv1.0.pdf](https://daeta.xyz/DaetaWPv1.0.pdf)
+- **Tokenomics**: [docs.daeta.xyz/tokenomics](https://docs.daeta.xyz/tokenomics)
+- **Email**: [contact@daeta.xyz](mailto:contact@daeta.xyz)
 
-### Prerequisites
+## Key Features
 
-- Node.js (v12 or later)
-- npm (v6 or later)
-- [Truffle](https://www.trufflesuite.com/truffle) or [Hardhat](https://hardhat.org/) for local development and testing
-- An Ethereum wallet like MetaMask for deployment and contract interaction
-
-## Installation
-
-Clone this repository and install dependencies.
-
-```bash
-git clone https://github.com/your-username/mytoken
-cd mytoken
-npm install
+- **ERC20 Transfers and Approval**: Basic functions for token transfers and spending approvals.
+- **Transaction Tax Management**: Customizable buy and sell taxes, applied to DEX interactions.
+- **Fund Distribution**: Automated allocation of funds from transaction taxes to dedicated addresses for storage and DAETA-related projects.
+- **Transaction Limits**: Configurable limits for maximum transaction amount and wallet balance.
