@@ -4,10 +4,10 @@ DÆTA is an ERC20 token designed as a decentralized, AI-native data layer and di
 
 ## Token Details
 
-- **Name**: DÆTA
-- **Symbol**: DÆTA
+- **Name**: DAETA
+- **Symbol**: DAETA
 - **Decimals**: 18
-- **Total Supply**: 100,000,000 DÆTA
+- **Total Supply**: 100,000,000 DAETA
 - **Contract Address**: [0x641c0f8b889f8336a69f464ddae3733e3de3788a](https://etherscan.io/address/0x641c0f8b889f8336a69f464ddae3733e3de3788a#code)
 
 ## Resources
