@@ -1,13 +1,13 @@
-# DAETA Token
+# DÆTA Token
 
-DAETA is an ERC20 token designed as a decentralized, AI-native data layer and distributed cloud storage solution. This repository contains the DAETA smart contract, featuring core ERC20 functionalities alongside Uniswap trading capabilities, tax management and automatic fund allocation to designated addresses for storage, LVRG and DAETA Boost.
+DÆTA is an ERC20 token designed as a decentralized, AI-native data layer and distributed cloud storage solution. This repository contains the DÆTA smart contract, featuring core ERC20 functionalities alongside Uniswap trading capabilities, tax management and automatic fund allocation to designated addresses for storage, LVRG and DÆTA Boost.
 
 ## Token Details
 
-- **Name**: DAETA
-- **Symbol**: DAETA
+- **Name**: DÆTA
+- **Symbol**: DÆTA
 - **Decimals**: 18
-- **Total Supply**: 100,000,000 DAETA
+- **Total Supply**: 100,000,000 DÆTA
 - **Contract Address**: [0x641c0f8b889f8336a69f464ddae3733e3de3788a](https://etherscan.io/address/0x641c0f8b889f8336a69f464ddae3733e3de3788a#code)
 
 ## Resources
